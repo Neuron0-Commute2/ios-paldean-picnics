@@ -2,7 +2,13 @@
   "permissions": {
     "allow": [
       "WebFetch(domain:raw.githubusercontent.com)",
-      "WebFetch(domain:api.github.com)"
+      "WebFetch(domain:api.github.com)",
+      "Read(//Users/penelope/Desktop/Hobbies/Software/Mobile/**)",
+      "WebSearch",
+      "Bash(jq:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:pointfreeco.github.io)",
+      "Bash(cat:*)"
     ],
     "deny": [],
     "ask": []
