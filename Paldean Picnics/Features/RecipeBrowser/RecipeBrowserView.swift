@@ -53,7 +53,7 @@ struct RecipeBrowserView: View {
             .buttonStyle(.plain)
         }
         .listStyle(.plain)
-    }
+    } 
 
     // MARK: - Empty State
 
