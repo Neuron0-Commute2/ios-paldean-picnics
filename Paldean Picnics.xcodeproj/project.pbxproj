@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F64F174B2E9215F600865369 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = F64F174A2E9215F600865369 /* ComposableArchitecture */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		F64F173B2E9214FB00865369 /* Paldean Picnics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Paldean Picnics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F64F174B2E9215F600865369 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = "Paldean Picnics";
 			packageProductDependencies = (
+				F64F174A2E9215F600865369 /* ComposableArchitecture */,
 			);
 			productName = "Paldean Picnics";
 			productReference = F64F173B2E9214FB00865369 /* Paldean Picnics.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = F64F17322E9214FB00865369;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F64F17492E9215F600865369 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F64F173C2E9214FB00865369 /* Products */;
 			projectDirPath = "";
@@ -351,6 +360,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F64F17492E9215F600865369 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.22.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F64F174A2E9215F600865369 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F64F17492E9215F600865369 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F64F17332E9214FB00865369 /* Project object */;
 }
